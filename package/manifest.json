@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "SlidesMagic",
+  "version": "0.1",
+  "description": "Toggle navigations in Google Slides on and off to show full slides without entering present mode",
+  
+  "icons": {
+    "128": "icon128.png",
+    "64": "icon64.png",
+    "48": "icon48.png",
+    "32": "icon32.png",
+    "24": "icon24.png",
+    "16": "icon16.png"
+  },
+ 
+
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/presentation/*"],
+      "js": ["jq.js", "main.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}
