@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SlidesMagic",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Toggle navigations in Google Slides on and off to show full slides without entering present mode",
   
   "icons": {
