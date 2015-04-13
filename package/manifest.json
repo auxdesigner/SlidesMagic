@@ -12,7 +12,8 @@
     "24": "icon24.png",
     "16": "icon16.png"
   },
- 
+
+  "web_accessible_resources": ["icon.svg"],
 
   "content_scripts": [
     {
